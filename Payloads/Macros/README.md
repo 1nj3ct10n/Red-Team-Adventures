@@ -1,4 +1,4 @@
-Originally created by John Woodman (@JohnWoodman15), this VBA macro gives a reverse shell using only Windows API calls.
+Originally created by John Woodman (@JohnWoodman15), this VBA macro initially gives a reverse shell using only Windows API calls.
 \
 \
 I modified it a bit according to my own needs. This macro does the following:
