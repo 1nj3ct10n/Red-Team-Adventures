@@ -10,6 +10,10 @@ I modified it a bit according to my own needs. This macro does the following:
 \
 ![image](https://user-images.githubusercontent.com/53261217/154839243-76814312-4d56-456e-84ec-7bcf916b13c7.png)
 \
+* AntiScan.me Scan Results: 1/26 (https://antiscan.me/images/result/Pi0zTQ4L7TGN.png)
+\
+![image](https://user-images.githubusercontent.com/53261217/154839621-e419bdab-8618-46fa-8c6e-062157613415.png)
+\
 \
 Link to John's Socials:
 \
