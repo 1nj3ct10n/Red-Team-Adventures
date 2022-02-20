@@ -6,9 +6,7 @@ I modified it a bit according to my own needs. This macro does the following:
 * Executes the payload to get a callback on our c2 (instead of a simple listener).
 * Adds the payload in Userland Registry StartUp key for persistence.
 * Creates a scheduled task to execute the payload after a desired period of time, for additional persistence.
-\
-\
-VirusTotal Scan Results: 4/57 (https://www.virustotal.com/gui/file/95b2bd3e00777d7ba490cb857055be2e69b847f95c9bd2b602f18c1f618c9600?nocache=1)
+* VirusTotal Scan Results: 4/57 (https://www.virustotal.com/gui/file/95b2bd3e00777d7ba490cb857055be2e69b847f95c9bd2b602f18c1f618c9600?nocache=1)
 \
 ![image](https://user-images.githubusercontent.com/53261217/154839243-76814312-4d56-456e-84ec-7bcf916b13c7.png)
 \
