@@ -1,5 +1,7 @@
 # Reference: https://stackoverflow.com/questions/3362600/how-to-send-email-attachments
 
+# This script can be used to send phishing emails (with attachments) using python via SMTP server or an open-relay.
+
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
