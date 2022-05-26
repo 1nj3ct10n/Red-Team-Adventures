@@ -1,1 +1,7 @@
-ASDSAD
+DELAY(1000);
+PRESS("GUI R");
+DELAY(1000);
+TYPE("notepad");
+PRESS("ENTER");
+DELAY(1000);
+TYPE("Hello World, I am A USB Rubber Ducky created using P4wnP1 ALOA Framework")
