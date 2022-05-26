@@ -5,5 +5,4 @@ Kudos to Marcus (@Mame82) for the awesome framework!
 Link to the original repo: https://github.com/RoganDawes/P4wnP1_aloa
 \
 \
-\
-This directory contains different Ducky Scripts that I created and used in my Red Team Adventures for payload delivery and execution! :)
+This directory contains different Ducky Scripts that I created and used in my Red Team Adventures for payload delivery and execution! 
