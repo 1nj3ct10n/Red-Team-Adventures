@@ -1,4 +1,4 @@
-# Red-Team-Adventures - Chapter: USB Rubber Ducky & Ducky Scripts
+# Red Team Adventures - Chapter: USB Rubber Ducky & Ducky Scripts
 
 I had a chance to use and play around with Marcus Mengs's P4wnP1 ALOA Framework during one of my Red Team Adventures.
 Kudos to Marcus (@Mame82) for the awesome framework!
