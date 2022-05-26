@@ -10,8 +10,8 @@ Link to the original repo: https://github.com/RoganDawes/P4wnP1_aloa
 This directory contains different Ducky Scripts that I created and used in my Red Team Adventures for payload delivery and execution! 🙂
 \
 \
-Hardware used:
+Hardware requirements:
 - Raspberry Pi Zero W
 - USB Cable
-- Raspberri Pi Zero W USB-A Add-on board
+- Raspberri Pi Zero W USB-A Add-on board (optional)
 - MicroSD Card (I used a Kingston 32 gb class 10)
