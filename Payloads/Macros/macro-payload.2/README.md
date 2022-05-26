@@ -16,7 +16,7 @@ A button appears, double click the button to open up the VBA Editor to code the 
 \
 As of May 26th 2022, following are the detection results:
 
-- AntiScan (for vba) results: https://antiscan.me/images/result/UzCb3HpMThek.png
+- AntiScan (for vba): https://antiscan.me/images/result/UzCb3HpMThek.png
 \
 \
 ![image](https://user-images.githubusercontent.com/53261217/170439495-239f9d9b-dcc1-4ae3-9acd-beaff67287d1.png)
