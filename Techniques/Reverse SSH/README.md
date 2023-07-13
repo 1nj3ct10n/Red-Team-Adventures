@@ -3,8 +3,9 @@ How to SSH into the dropbox to carry out attacks on the network?
 Solution: Creating a reverse SSH tunnel. Instead of the command and control server connecting to the Raspberry Pi, the Raspberry Pi initiates the connection to the command and control server. This is the same technique used by many backdoor programs.
 
 Original credits:
+<br>
 https://charlesreid1.com/wiki/RaspberryPi/Reverse_SSH
-\n
+<br>
 https://hobo.house/2016/06/20/fun-and-profit-with-reverse-ssh-tunnels-and-autossh/
-\n
+<br>
 http://www.vdomck.org/2005/11/reversing-ssh-connection.html
