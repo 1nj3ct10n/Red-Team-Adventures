@@ -73,10 +73,15 @@ bool hasRWXSection(const std::string& filePath)
         DWORD characteristics = sectionHeader->Characteristics;
         if ((characteristics & IMAGE_SCN_MEM_WRITE) && (characteristics & IMAGE_SCN_MEM_EXECUTE))
         {
+            setConsoleColor(GREEN_COLOR);
             std::cout << "RWX section found in file: " << filePath << std::endl;
+            std::cout << "Section name: " << sectionHeader->Name << std::endl;
+            std::cout << "Virtual address: 0x" << std::hex << sectionHeader->VirtualAddress << std::endl;
+            std::cout << "Virtual size: " << std::dec << sectionHeader->Misc.VirtualSize << " bytes" << std::endl;
             UnmapViewOfFile(baseAddress);
             CloseHandle(hFileMapping);
             CloseHandle(hFile);
+            setConsoleColor(DEFAULT_COLOR);
             return true;
         }
     }
@@ -85,7 +90,9 @@ bool hasRWXSection(const std::string& filePath)
     CloseHandle(hFileMapping);
     CloseHandle(hFile);
     return false;
+    setConsoleColor(DEFAULT_COLOR);
 }
+
 
 int main()
 {
@@ -112,11 +119,14 @@ int main()
             foundRWXSection = true;
             setConsoleColor(GREEN_COLOR);
             std::cout << "RWX section found in file: " << file << std::endl;
+            setConsoleColor(DEFAULT_COLOR);
         }
     }
 
     if (!foundRWXSection)
         std::cout << "No files with RWX sections found." << std::endl;
+    setConsoleColor(DEFAULT_COLOR);
+    
 
     return 0;
 }
