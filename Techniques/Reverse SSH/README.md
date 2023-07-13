@@ -4,5 +4,7 @@ Solution: Creating a reverse SSH tunnel. Instead of the command and control serv
 
 Original credits:
 https://charlesreid1.com/wiki/RaspberryPi/Reverse_SSH
+\n
 https://hobo.house/2016/06/20/fun-and-profit-with-reverse-ssh-tunnels-and-autossh/
+\n
 http://www.vdomck.org/2005/11/reversing-ssh-connection.html
