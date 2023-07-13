@@ -90,7 +90,7 @@ bool hasRWXSection(const std::string& filePath)
 int main()
 {
     std::string directoryPath;
-    std::cout << "Enter the directory path to search for DLLs: ";
+    std::cout << "Enter the directory path to search for files: ";
     std::getline(std::cin, directoryPath);
 
     std::vector<std::string> files = getFilesInDirectory(directoryPath);
@@ -103,25 +103,20 @@ int main()
     bool foundRWXSection = false;
     for (const std::string& file : files)
     {
-        if (file.find(".dll") != std::string::npos) // Check if the file is a DLL
-        {
-            setConsoleColor(RED_COLOR);
-            std::cout << "Analyzing file: " << file << std::endl;
-            setConsoleColor(DEFAULT_COLOR);
+        setConsoleColor(RED_COLOR);
+        std::cout << "Analyzing file: " << file << std::endl;
+        setConsoleColor(DEFAULT_COLOR);
 
-            if (hasRWXSection(file))
-            {
-                foundRWXSection = true;
-                setConsoleColor(GREEN_COLOR);
-                std::cout << "RWX section found in file: " << file << std::endl;
-                setConsoleColor(DEFAULT_COLOR);
-                std::cout << "====================================" << std::endl;
-            }
+        if (hasRWXSection(file))
+        {
+            foundRWXSection = true;
+            setConsoleColor(GREEN_COLOR);
+            std::cout << "RWX section found in file: " << file << std::endl;
         }
     }
 
     if (!foundRWXSection)
-        std::cout << "No DLLs with RWX sections found." << std::endl;
+        std::cout << "No files with RWX sections found." << std::endl;
 
     return 0;
 }
