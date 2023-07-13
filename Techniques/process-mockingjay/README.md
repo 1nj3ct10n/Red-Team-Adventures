@@ -9,3 +9,10 @@ Using Windows trusted and legitimate DLLs to inject malicious code.
 Security Joes: https://www.securityjoes.com/post/process-mockingjay-echoing-rwx-in-userland-to-achieve-code-execution
 <br>
 LinkedIn: https://www.linkedin.com/company/security-joes/
+
+<br>
+<br>
+
+#### To-Do:
+1. Remote Process Injection
+2. Combine with Reflective DLL Injection
