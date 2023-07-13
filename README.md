@@ -1,6 +1,6 @@
 # Red-Team-Adventures
 
-This repo will contain some cool stuff that I have used in Red Team engagements.
+This repo will contain some cool stuff that I have used (or will utilize) in Red Team engagements.
 \
 \
 \
