@@ -1,4 +1,7 @@
 import sys
+from pyfiglet import Figlet
+custom_fig = Figlet(font='graffiti')
+print(custom_fig.renderText('LinkedInt'))
 from linkedin_api import Linkedin
 
 def get_input():
