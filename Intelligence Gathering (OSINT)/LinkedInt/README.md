@@ -8,7 +8,11 @@ This script uses linkedin_api python library to search for matching profiles bas
 
 # Usage
 `git clone `
+
 `python3 -m venv <name of virtual environment directory>`
+
 `source <name of virtual environment directory>/bin/activate`
+
 ` pip3 install - r requirements.txt`
+
 `python3 linkedint.py`
