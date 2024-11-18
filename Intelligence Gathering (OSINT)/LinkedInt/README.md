@@ -17,5 +17,8 @@ Download the script along with the requirements file.
 
 `python3 linkedint.py`
 
+![image](https://github.com/user-attachments/assets/38d0b415-b543-4eb2-b526-be039031ff74)
+
+
 ## Note
 Make sure to replace your username and password in the script at line 25 and 26.
