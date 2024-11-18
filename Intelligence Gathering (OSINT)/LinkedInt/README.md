@@ -7,12 +7,12 @@ This script uses linkedin_api python library to search for matching profiles bas
 - latest education
 
 # Usage
-` - git clone 
+Download the script along with the requirements file.
 
-- python3 -m venv <name of virtual environment directory>
+`python3 -m venv <name of virtual environment directory>`
 
-- source <name of virtual environment directory>/bin/activate
+`source <name of virtual environment directory>/bin/activate`
 
-- pip3 install - r requirements.txt
+`pip3 install - r requirements.txt`
 
-- python3 linkedint.py`
+`python3 linkedint.py`
