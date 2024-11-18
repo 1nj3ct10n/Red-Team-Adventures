@@ -16,3 +16,6 @@ Download the script along with the requirements file.
 `pip3 install - r requirements.txt`
 
 `python3 linkedint.py`
+
+## Note
+Make sure to replace your username and password in the script at line 25 and 26.
